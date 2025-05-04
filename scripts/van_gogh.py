@@ -7,4 +7,4 @@ pipe = StableDiffusionPipeline.from_pretrained(
 ).to("cpu")
 
 image = pipe("A painting in the style of Vincent Van Gogh, something like The Starry Night").images[0]
-image.save("van_gogh_style.png")
+image.save("images/van_gogh_style.png")
